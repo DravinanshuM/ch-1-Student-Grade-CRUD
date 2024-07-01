@@ -1,10 +1,12 @@
 import "./App.css";
-import StudentGrade from "./components/StudentGrade";
+import StudentMarks from "./components/StudentMarks";
+// import StudentGrade from "./components/StudentGrade";
 
 function App() {
   return (
     <>
-      <StudentGrade />
+      {/* <StudentGrade /> */}
+      <StudentMarks />
     </>
   );
 }
